@@ -1,3 +1,4 @@
+![Screenshot](manipulator.jpg)
 # About
 This repository is designed for master's students to engage in practical learning of ROS2 through hands-on experiences. It includes a manipulator simulator built in Unity, allowing students to practice robotic manipulation in a virtual environment. Additionally, the repository provides examples of ROS nodes that facilitate communication between the Unity simulator and ROS2, enabling students to explore real-time interactions and data exchanges within robotics applications. This approach combines theoretical knowledge with practical skills, ensuring a comprehensive understanding of ROS2 and robotic systems. 
 
