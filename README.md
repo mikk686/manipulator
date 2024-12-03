@@ -14,3 +14,21 @@ Equally important is the communication of the cube's position, which is the obje
 The project emphasizes the use of direct joint control methods in ROS2 for manipulating the robotic arm. By employing this approach, students can accurately move the end-effector to grasp the cube and subsequently place it into the box. This involves computing the appropriate joint angles based on the target end-effector position and utilizing ROS2 services or actions to execute these commands within the simulation.
 
 This communication framework offers students a robust understanding of implementing control strategies in robotics using ROS2, enhancing their practical skills in an interactive environment.
+
+# Requirements
+ROS2 Environment
+Linux/Windows PC with simulation
+Connection between ROS station and PC
+
+# How to
+0) Download Released Unity simulator 
+1) Create Workspace
+2) Git clone ROS-TCP-Endpoint (do not forget to checkout to ROS2 branch)
+3) Run ROS-TCP-Endpoint to get messages from simulation
+4) Connect Unity simulator to ROS-TCP-Endpoint
+5) Write ROS Node to control manipulator
+6) Place object into the box
+
+# Reference
+https://github.com/Unity-Technologies/ROS-TCP-Endpoint/tree/main
+
